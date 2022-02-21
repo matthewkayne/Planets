@@ -1,5 +1,7 @@
 # Planets
 
+[![CodeFactor](https://www.codefactor.io/repository/github/matthewkayne/planets/badge)](https://www.codefactor.io/repository/github/matthewkayne/planets)
+
 Planetary data stored as objects
 
 `from planets.planets import *` then you can call:
