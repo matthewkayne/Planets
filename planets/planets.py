@@ -1,7 +1,3 @@
-# Mass (kg), Diameter (km), Density (kg/m3), Gravity (m/s2), Escape Velocity (km/s), Rotation Period (hours),
-# Length of Day (hours), Distance from Sun (106 km), Perihelion (106 km), Aphelion (106 km), Orbital Period (days),
-# Orbital Velocity (km/s), Orbital Inclination (degrees), Orbital Eccentricity, Obliquity to Orbit (degrees),Mean Temperature (C),
-# Surface Pressure (bars),Number of Moons,Ring System, Global Magnetic Field
 
 class Planet:
     def __init__(self, mass, diameter, density, gravity, escVelocity, rotationPeriod, dayLength, fromSun, perihelion, apheleon, orbitPeriod, orbitVelocity, orbitInclination, orbitEccentricity, obliquityToOrbit, temp, surfacePressure, moons, ringsys, gmf, img):
