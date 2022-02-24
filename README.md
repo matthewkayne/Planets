@@ -10,6 +10,6 @@ Planetary data stored as objects
 
 with any of the following attributes:
 
-`mass, diameter, density, gravity, escVelocity, rotationPeriod, dayLength, fromSun, periheleon, apheleon, orbitPeriod, orbitVelocity, orbitInclination, orbitEccentricity, obliquityToOrbit, temp, surfacePressure, moons, ringsys, gmf, img`
+`mass, diameter, density, gravity, escVelocity, rotationPeriod, dayLength, fromSun, periheleon, apheleon, orbitPeriod, orbitVelocity, orbitInclination, orbitEccentricity, obliquityToOrbit, temp, surfacePressure, moons, ringsys, gmf, img, colour`
 
 All data from: https://nssdc.gsfc.nasa.gov/planetary/factsheet/
