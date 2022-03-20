@@ -10,31 +10,31 @@ LIGHT_BLUE = (0, 255, 255)
 class Planet:
     """Planet"""
 
-    def __init__(self, name, mass, diameter, density, gravity, escVelocity, rotationPeriod, dayLength, fromSun, perihelion, apheleon, orbitPeriod, orbitVelocity, orbitInclination, orbitEccentricity, obliquityToOrbit, temp, surfacePressure, moons, ringsys, gmf, img, colour, atmosphereComp):
+    def __init__(self, name, mass, diameter, density, gravity, esc_velocity, rotation_period, day_length, from_sun, perihelion, apheleon, orbit_period, orbit_velocity, orbit_inclination, orbit_eccentricity, obliquity_to_orbit, temp, surface_pressure, moons, ring_sys, gmf, img, colour, atmosphere_comp):
         self.name = name
         self.mass = mass
         self.diameter = diameter
         self.density = density
         self.gravity = gravity
-        self.escVelocity = escVelocity
-        self.rotationPeriod = rotationPeriod
-        self.dayLength = dayLength
-        self.fromSun = fromSun
+        self.esc_velocity = esc_velocity
+        self.rotation_period = rotation_period
+        self.day_length = day_length
+        self.from_sun = from_sun
         self.perihelion = perihelion
         self.apheleon = apheleon
-        self.orbitPeriod = orbitPeriod
-        self.orbitVelocity = orbitVelocity
-        self.orbitInclination = orbitInclination
-        self.orbitEccentricity = orbitEccentricity
-        self.obliquityToOrbit = obliquityToOrbit
+        self.orbit_period = orbit_period
+        self.orbit_velocity = orbit_velocity
+        self.orbit_inclination = orbit_inclination
+        self.orbit_eccentricity = orbit_eccentricity
+        self.obliquity_to_orbit = obliquity_to_orbit
         self.temp = temp
-        self.surfacePressure = surfacePressure
+        self.surface_pressure = surface_pressure
         self.moons = moons
-        self.ringsys = ringsys
+        self.ring_sys = ring_sys
         self.gmf = gmf
         self.img = img
         self.colour = colour
-        self.atmosphereComp = atmosphereComp
+        self.atmosphereComp = atmosphere_comp
 
 
 mercury = Planet("Mercury", 0.33*10**24, 4879, 5429, 3.7, 4.3, 1407.6, 4222.6, 57.9*10**6, 46*10**6, 69.8*10**6, 88, 47.4, 7, 0.206, 0.034, 167, 0, 0, False, True,
