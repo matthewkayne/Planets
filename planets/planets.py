@@ -34,7 +34,7 @@ class Planet:
         self.gmf = gmf
         self.img = img
         self.colour = colour
-        self.atmosphereComp = atmosphere_comp
+        self.atmosphere_comp = atmosphere_comp
 
 
 mercury = Planet("Mercury", 0.33*10**24, 4879, 5429, 3.7, 4.3, 1407.6, 4222.6, 57.9*10**6, 46*10**6, 69.8*10**6, 88, 47.4, 7, 0.206, 0.034, 167, 0, 0, False, True,
@@ -57,6 +57,3 @@ neptune = Planet("Neptune", 102*10**24, 49528, 1638, 11, 23.5, 16.1, 16.1, 4515*
                  14, True, True, "https://nssdc.gsfc.nasa.gov/planetary/banner/neptune.gif", BLUE, [["Molecular Hydrogen", 0.8], ["Helium", 0.19], ["Methane", 0.01]])
 pluto = Planet("Pluto", 0.013*10**24, 2376, 1850, 0.7, 1.3, -153.3, 153.3, 5906.4*10**6, 4436.8*10**6, 7375.9*10**6, 90560, 4.7, 17.2, 0.244, 122.5, -225, 0.00001, 5, False,
                None, "https://nssdc.gsfc.nasa.gov/planetary/banner/plutofact.gif", LIGHT_BLUE, [["Nitrogen", 0.99], ["Methane", 0.005], ["Carbon Monoxide", 0.0005], ["Other", 0.0045]])
-
-planets = [mercury, venus, earth, moon, mars,
-           jupiter, saturn, uranus, neptune, pluto]
