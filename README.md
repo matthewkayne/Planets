@@ -4,7 +4,17 @@
 
 Planetary data stored as objects
 
-`from planets.planets import *` then you can call:
+To install the package use:
+
+```bash
+pip install Planet-Objects
+```
+
+To import the package use:
+
+`from planets.planets import *` 
+
+then you can call:
 
 `mercury, venus, earth, moon, mars, jupiter, saturn, uranus, neptune, pluto`
 
